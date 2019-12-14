@@ -1,7 +1,7 @@
 // require('dotenv-safe').load()
 const express = require('express');
 const router = express.Router();
-const controller = require("../controllers/ListafilmesController")
+const controller = require("../Controllers/ListafilmesController")
 const jwt = require('jsonwebtoken')
 const SEGREDO = process.env.SEGREDO
 
