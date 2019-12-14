@@ -4,7 +4,7 @@
   "description": "Este projeto contém todo o aprendizado no bootcamp reprograma, com lista de filmes em cartaz e compra de ingresso.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

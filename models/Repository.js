@@ -1,4 +1,4 @@
-// require('dotenv-safe').load()
+require('dotenv-safe').load()
 const mongoose = require('mongoose');
 const MONGO_URI = process.env.MONGO_URI
 
