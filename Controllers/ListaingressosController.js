@@ -61,6 +61,34 @@ const getById = (request, response) => {
   })
 }
 
+// const updateIngresso = (request, response) => {
+//     const idFilmes = request.params.idFilmes
+//     const idIngresso = request.params.idIngresso
+//     const atualizaIngresso = request.body
+//   console.log(idFilmes, idIngresso)
+//     ingressosModel.findOneAndUpdate(
+//       { _id: idIngresso, 'filmes.$._id': idFilmes },
+//     { $set:
+//         {
+//           'filmes.$.dataExibicao': atualizaIngresso.dataExibicao,
+//           'filmes.$.horarioSessao': atualizaIngresso.horarioSessao
+//         }
+//     },
+//     { new: true },
+//       (error, ingresso) => {
+//         if (error) {
+//           return response.status(500).send(error)
+//         }
+  
+//         if (ingresso) {
+//           return response.status(200).send(ingresso)
+//         }
+  
+//         return response.status(404).send('Ingresso não encontrado.')
+//       }
+//     )
+//   }
+
 // const add = (request, response) => {
 //   const novoPokemon = new ingressosModel(request.body)
 
@@ -141,8 +169,5 @@ module.exports = {
   addCadastro,
   addIngresso,
   getById
-//   add,
-//   remove,
-//   update,
-//   treinar
+
 }

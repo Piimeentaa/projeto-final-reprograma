@@ -7,8 +7,8 @@ router.get('', controller.getAll)
 router.post('', controller.addCadastro)
 router.post('/:cadastroId/filme', controller.addIngresso)
 router.get('/meucadastro/:id', controller.getById)
-// router.patch('/:id', controller.update)
+// router.patch('/:idIngresso/:idFilmes', controller.updateIngresso)
 // router.delete('/:id', controller.remove)
-// router.patch('/treinar/:id', controller.treinar)
+
 
 module.exports = router

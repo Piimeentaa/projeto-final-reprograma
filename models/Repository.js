@@ -1,9 +1,9 @@
 require('dotenv-safe').load()
 const mongoose = require('mongoose');
-const MONGO_URI = process.env.MONGODB_URI
+const MONGO_URL = process.env.MONGODB_URI
 
 function connect () {
-  mongoose.connect(MONGO_URI,
+  mongoose.connect(MONGO_URL,
     { useNewUrlParser: true },
     function (error) {
       if(error) {
