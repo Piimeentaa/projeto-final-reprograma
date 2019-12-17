@@ -12,7 +12,7 @@ app.use('/ingressos', ingressos)
 app.use('/filmes', filmes)
 
 app.get('/', (request, response) => {
-  response.send('Olá, mundo!')
+  response.send('Seja bem-vindo ao projeto final CRUD da Isadora')
 })
 
 
