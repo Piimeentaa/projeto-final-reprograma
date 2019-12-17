@@ -61,7 +61,7 @@ const getById = (request, response) => {
   })
 }
 
-// const updateIngresso = (request, response) => {
+// const updateCadastro = (request, response) => {
 //     const idFilmes = request.params.idFilmes
 //     const idIngresso = request.params.idIngresso
 //     const atualizaIngresso = request.body
